@@ -3,6 +3,7 @@
 /*
    NOTES: SG90 Servos operate in PWM microseconds from 500 - 2500 for 180 DOF
    writeMicroseconds does not like calculations in parameter
+   Written by Ryan Miller and Patrick Phattharaampornchai
 */
 #include <Servo.h>
 #include <SoftwareSerial.h>
@@ -186,5 +187,3 @@ String readBT()
 //  estGY = GY.updateEstimate(GyY) + 80;
 //  estGZ = GZ.updateEstimate(GyZ) + 40;
 //}
-
-
